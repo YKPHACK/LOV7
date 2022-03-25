@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/company_logo_current_status"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/ic_launcher">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/company_name_current_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/company_logo_current_status"
+            android:text="@string/company_name"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/company_problem_date_current_status_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/company_logo_current_status"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/date_of_problem"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/company_subject_current_status_lbl"
+            android:layout_width="160dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/company_problem_date_current_status_lbl"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/problem_subject"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/company_subject_current_status_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/company_subject_current_status_lbl"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/this_is_the_subject_text"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/company_solution_date_current_status_lbl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/company_subject_current_status_txt"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/date_of_solution"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/company_solution_current_status_lbl"
+            android:layout_width="130dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/company_solution_date_current_status_lbl"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/your_solution"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/company_solution_current_status_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/company_solution_current_status_lbl"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/this_is_your_solution_text"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

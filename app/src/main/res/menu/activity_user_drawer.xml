@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_user_home"
+            android:icon="@drawable/ic_baseline_house_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_recview_user_companies"
+            android:icon="@drawable/ic_baseline_corporate_fare_24"
+            android:title="@string/companies" />
+        <item
+            android:id="@+id/nav_user_application_issues"
+            android:icon="@drawable/ic_baseline_bug_report_24"
+            android:title="@string/application_issues" />
+        <item
+            android:id="@+id/nav_user_report_fraud"
+            android:icon="@drawable/ic_baseline_gpp_maybe_24"
+            android:title="@string/report_fraud" />
+        <item
+            android:id="@+id/nav_user_earnings"
+            android:icon="@drawable/ic_baseline_currency_rupee_24"
+            android:title="@string/earnings" />
+        <item
+            android:id="@+id/nav_recview_user_problems"
+            android:icon="@drawable/ic_baseline_highlight_off_24"
+            android:title="@string/problems" />
+        <item
+            android:id="@+id/nav_recview_user_current_status"
+            android:icon="@drawable/ic_baseline_computer_24"
+            android:title="@string/current_status" />
+        <item
+            android:id="@+id/nav_user_selected_ideas"
+            android:icon="@drawable/ic_baseline_wb_incandescent_24"
+            android:title="@string/selected_ideas" />
+        <item
+            android:id="@+id/nav_user_top_users"
+            android:icon="@drawable/ic_baseline_star_rate_24"
+            android:title="@string/top_users" />
+    </group>
+</menu>

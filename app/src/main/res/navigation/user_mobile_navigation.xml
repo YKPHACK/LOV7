@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_user_home">
+
+    <fragment
+        android:id="@+id/nav_user_earnings"
+        android:name="com.example.lackofvision.userpages.ui.earnings.EarningsUserFragment"
+        android:label="Earnings"
+        tools:layout="@layout/fragment_user_earnings" />
+
+    <fragment
+        android:id="@+id/nav_user_report_fraud"
+        android:name="com.example.lackofvision.userpages.ui.report_fraud.ReportFraudUserFragment"
+        android:label="Report Fraud"
+        tools:layout="@layout/fragment_user_report_fraud" />
+    <fragment
+        android:id="@+id/nav_user_application_issues"
+        android:name="com.example.lackofvision.userpages.ui.application_issues.ApplicationIssuesUserFragment"
+        android:label="Application Issues"
+        tools:layout="@layout/fragment_user_application_issues" />
+    <fragment
+        android:id="@+id/nav_user_selected_ideas"
+        android:name="com.example.lackofvision.userpages.ui.selected_ideas.SelectedIdeasUserFragment"
+        android:label="Selected Ideas"
+        tools:layout="@layout/fragment_user_selected_ideas" />
+    <fragment
+        android:id="@+id/nav_user_top_users"
+        android:name="com.example.lackofvision.userpages.ui.top_users.TopUsersUserFragment"
+        android:label="Top Users"
+        tools:layout="@layout/fragment_user_top_users" />
+    <fragment
+        android:id="@+id/nav_user_home"
+        android:name="com.example.lackofvision.userpages.ui.home.HomeUserFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_user_home" />
+
+    <activity
+        android:id="@id/nav_recview_user_companies"
+        android:name="com.example.lackofvision.CompaniesUserActivity"
+        android:label="Companies"
+        tools:layout="@layout/activity_user_companies" >
+
+    </activity>
+    <activity
+        android:id="@+id/nav_recview_user_problems"
+        android:name="com.example.lackofvision.ProblemsUserActivity"
+        android:label="Problems"
+        tools:layout="@layout/activity_user_problems">
+
+    </activity>
+    <activity
+        android:id="@+id/nav_recview_user_current_status"
+        android:name="com.example.lackofvision.CurrentStatusUserActivity"
+        android:label="@string/current_status"
+        tools:layout="@layout/activity_user_current_status">
+
+    </activity>
+
+</navigation>

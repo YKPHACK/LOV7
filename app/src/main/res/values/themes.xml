@@ -1,0 +1,19 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.LACKOFVISION1" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/Purple</item>
+        <item name="colorPrimaryDark">@color/Purple</item>
+        <item name="colorAccent">@color/Teal</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.LACKOFVISION1.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.LACKOFVISION1.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.LACKOFVISION1.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

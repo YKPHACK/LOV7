@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "330478503618",
+    "project_id": "otpgeneration-187f4",
+    "storage_bucket": "otpgeneration-187f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330478503618:android:8767e7e654bb71fa77dd5b",
+        "android_client_info": {
+          "package_name": "com.example.lackofvision"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "330478503618-nnch4rl86er1t0uken0f6c3j7644cmbj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiv9Xx5yXtRbwa_tyervcofMqR-Yzy_j0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "330478503618-nnch4rl86er1t0uken0f6c3j7644cmbj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

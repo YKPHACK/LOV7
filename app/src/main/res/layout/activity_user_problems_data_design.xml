@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="5dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/company_logo_problem"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="10dp"
+            android:src="@mipmap/ic_launcher">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/company_name_problem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@+id/company_logo_problem"
+            android:text="@string/company_name"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/company_subject_problem_lbl"
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/company_logo_problem"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/subject"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/company_subject_problem_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/company_logo_problem"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_toEndOf="@id/company_subject_problem_lbl"
+            android:text="@string/this_is_the_subject_text"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/company_description_problem_lbl"
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:layout_below="@+id/company_subject_problem_txt"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="3dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/description"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/company_description_problem_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/company_subject_problem_txt"
+            android:layout_toEndOf="@id/company_description_problem_lbl"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/this_is_the_description_text"
+            android:textColor="@color/black"
+            android:textSize="20dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/solution_problem_textbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/company_description_problem_txt"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/enter_your_solution_here">
+
+        </EditText>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
