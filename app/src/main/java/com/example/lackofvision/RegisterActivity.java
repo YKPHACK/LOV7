@@ -15,6 +15,8 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.lackofvision.userpages.User_Menu;
+
 import java.util.HashMap;
 
 import retrofit2.Call;
@@ -129,7 +131,7 @@ public class RegisterActivity extends AppCompatActivity {
                 if (responseBody != null) {
                     if (responseBody.getSuccess().equals("1")) {
                         Toast.makeText(RegisterActivity.this, responseBody.getMessage(), Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(RegisterActivity.this,userhome.class);
+                        Intent intent = new Intent(RegisterActivity.this, User_Menu.class);
                         startActivity(intent);
                         finish();
                     } else {

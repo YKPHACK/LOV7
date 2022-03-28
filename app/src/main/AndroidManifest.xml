@@ -15,11 +15,7 @@
             android:exported="true"
             android:label="LackOfVision"
             android:theme="@style/Theme.LACKOFVISION1.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".CompaniesUserActivity"
@@ -46,6 +42,12 @@
         <activity
             android:name=".MainActivity1"
             android:exported="true" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
         <activity android:name=".activity_manageotp" />
