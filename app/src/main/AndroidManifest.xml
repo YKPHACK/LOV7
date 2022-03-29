@@ -16,6 +16,7 @@
             android:label="LackOfVision"
             android:theme="@style/Theme.LACKOFVISION1.NoActionBar">
 
+
         </activity>
         <activity
             android:name=".CompaniesUserActivity"

@@ -59,7 +59,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 
                 if (inputUsername.getText().toString().equals("")) {
-                    Toast.makeText(RegisterActivity.this, "Enter username", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RegisterActivity.this, "Enter user id", Toast.LENGTH_SHORT).show();
                 }else if (inputFirstName.getText().toString().equals("")) {
                     Toast.makeText(RegisterActivity.this, "Enter first name", Toast.LENGTH_SHORT).show();
                 }else if (inputLastName.getText().toString().equals("")) {
@@ -88,14 +88,14 @@ public class RegisterActivity extends AppCompatActivity {
 
 
                         HashMap<String, String> params = new HashMap<>();
-                        params.put("phone_no",inputphone_no.getText().toString() );
-                        params.put("User_name", inputUsername.getText().toString());
-                        params.put("Gender", radioButton.getText().toString());
+                        params.put("user_id", inputUsername.getText().toString());
                         params.put("first_name", inputFirstName.getText().toString());
                         params.put("last_name", inputLastName.getText().toString());
+                        params.put("Gender", radioButton.getText().toString());
                         params.put("age", inputAge.getText().toString());
                         params.put("email", inputemail.getText().toString());
                         params.put("u_password", inputPassword.getText().toString());
+                        params.put("phone_number",inputphone_no.getText().toString() );
                         register(params);
 
                     }
